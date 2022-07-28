@@ -1,6 +1,7 @@
 let copyText = document.querySelector(".copy-text");
 copyText.querySelector("button").addEventListener("click", function(){
     let input = copyText.querySelector("input.text");
+    
     input.select();
     document.execCommand("copy");
     copyText.classList.add("active");
@@ -9,4 +10,3 @@ copyText.querySelector("button").addEventListener("click", function(){
         copyText.classList.remove("active");
     },2500);
 })
-

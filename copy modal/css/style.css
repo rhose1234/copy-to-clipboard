@@ -26,27 +26,30 @@ body{
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
-    display: flex;
+    display: block;
 }
 .copy-text input.text{
-    padding: 10px;
+    
     font-size: 18px;
-    color: #555;
+    color: black;
     border: none;
     outline: none;
 }
 .copy-text button{
     padding: 10px;
-    background-color: rgb(156, 21, 156);
+    background-color: blue;
     border: none;
     color: #fff;
     font-size: 18px;
     outline: none;
     border-radius: 10px;
     cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 80%;
 }
 .copy-text button:active{
-    background-color: rgb(156, 21, 156);
+    background-color: blue;
 
 }
 .copy-text button::before{
@@ -54,7 +57,7 @@ body{
     position: absolute;
     top: -45px;
     right: 0px;
-    background: rgb(187, 109, 187);
+    background: blue;
     padding: 8px 10px;
     font-size: 15px;
     border-radius: 20px;
@@ -67,7 +70,7 @@ body{
     right: 25px;
     width: 10px;
     height: 10px;
-    background:rgb(187, 109, 187) ;
+    background:blue ;
     transform: rotate(45deg);
     display: none;
 }
